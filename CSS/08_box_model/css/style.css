@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* without this padding change the width of box model */
+}
+
+.box1{
+    width: 320px;
+    text-align: justify;
+    background-color: blueviolet;
+    padding: 30px;
+}
+
+.box2{
+    width: 320px;
+    text-align: justify;
+    background-color: gray;
+    margin: 25px;
+}
+
+h2{
+    border-style: solid;
+    border-width: 5px;
+    border-color: aqua;
+    border-radius: 10px;
+}
+
+h3{
+    border: solid 5px magenta;
+    border-radius: 10p;
+}

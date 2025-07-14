@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* cube */
+
+.right{
+    background-color: aqua;
+}
+
+.left{
+    background-color: blue;
+}
+
+.top{
+    background-color:blueviolet;
+}
+
+.bottom{
+    background-color: burlywood;
+}
+
+.fornt{
+    background-color: cornflowerblue;
+}
+
+.back{
+    background-color: brown;
+}

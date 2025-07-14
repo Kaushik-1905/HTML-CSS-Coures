@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.containtar{
+    background-color: aqua;
+     height: 340px;
+    width: 340px;
+    position: relative;
+   margin: 0 auto;
+}
+
+.box1{
+    height: 120px;
+    width: 120px;
+    background-color:chartreuse;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.box2{
+    height: 120px;
+    width: 120px;
+    background-color:rgb(62, 140, 196);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bfaf{
+    background-color:blue;
+    height: 340px;
+    width: 340px;
+    margin: 20px auto ;
+    position: relative;
+}
+
+.bfaf::before{
+    background-color:red;
+    height: 120px;
+    width: 120px;
+    content: "b1";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bfaf::after{
+    background-color: darkgoldenrod;
+    height: 120px;
+    width: 120px;
+    content: "b2";
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.font{
+    text-align: center;
+}
+
+.font h2{
+    color:orchid;
+    font-size: 50px;
+    position: relative;
+    display: inline-block;
+}
+
+.font h2::before{
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 55px;
+    background-color: orchid;
+    top: 25px;
+    left: -65px;
+}
+
+.font h2::after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 55px;
+    background-color: orchid;
+    top: 25px;
+    right: -65px;
+}
+.s{
+    position: relative;
+    margin: 60px 20px;
+    padding: 20px;
+    
+}
+.s2{
+    position: absolute;
+    height:40px ;
+    width: 400px;
+
+}
+
+.s3{
+    position: absolute;
+    left: 350px;
+    top: 28px;
+    width: 60px;
+    height: 25px;
+}
+
+
+.u1{
+    margin: 50px;
+    list-style: none;
+   
+}
+
+.u1 li::before{
+     content: "\ea6c";
+    font-family: remixicon !important;
+}
+
+.u1 li::after{
+     content: "\ea5b";
+    font-family: remixicon !important;
+}

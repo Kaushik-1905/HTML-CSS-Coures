@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 300px;
+    text-align: justify;
+    display: inline-block;
+}
+
+/* 
+display property
+block (div,p,ul,li  => inline-block)
+inline:margin,padding,proper lagtu nathi and width height na lage(span,a,from ->input)inline-block
+inline-block:slite space left-right
+*/
+
+.box1{
+    background-color: blue;
+    
+}
+
+.box2{
+    background-color:pink;   
+}
+
+.b1{
+    border-left: 10px solid yellow;
+    padding-left: 10px;
+}
+.b2{
+    border-right: 10px solid khaki ;
+    padding-right: 10px ;
+}
+.b3{
+    border-top: 10px solid khaki ;
+    padding-top: 10px;
+}
+.b4{
+    border-bottom: 10px solid yellow;
+    padding-bottom: 10px;
+}
+.b5{
+    border-top-left-radius: 30px;
+}
+
+.b6{
+    border-top-right-radius: 30px;
+}
+
+.b7{
+    border-bottom-right-radius: 30px;
+}
+
+.b8{
+    border-bottom-left-radius: 30px;
+}

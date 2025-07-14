@@ -1,0 +1,99 @@
+/*selactor selactor{
+ property: value;
+}
+*/
+
+/*font-size*/
+.font-size .p1 {
+    font-size: 24px;
+}
+
+.font-size .p1 {
+    font-size: 120%;
+}
+
+.font-size .p3 span {
+    color: aqua;
+}
+
+/*text-align*/
+.text-align .p1 {
+    text-align: center;
+}
+
+.text-align .p2 {
+    text-align:justify;
+}
+
+.line-hight .p1{
+    line-height:20px ;
+}
+
+.line-hight .p2{
+    line-height:120px ;
+}
+
+/*letter-spacing*/
+.letter-spacing .p1{
+    letter-spacing:4px ;
+}
+
+/*word-spacing*/
+.word-spacing .p1{
+    word-spacing: 20px;
+}
+
+/*text-decoration*/
+.text-decoration .p1{
+    text-decoration: underline;
+}
+.text-decoration .p2{
+    text-decoration:overline;
+}
+
+/*font-style*/
+.font-size .p1{
+    font-size: 120px;
+}
+
+/*text-transform*/
+.text-transform .p1{
+    text-transform:lowercase;
+}
+
+.text-transform .p2{
+    text-transform:uppercase;
+}
+
+.text-transform .p3{
+    text-transform:capitalize;
+}
+
+/*text-indent*/
+.text-indent .p1{
+    text-indent: 120%;
+}
+
+/*list-style*/
+.list-style ul{
+    list-style: decimal;
+}
+
+.list-style ol{
+    list-style:circle;
+}
+
+/*font-famliy*/
+.font-famliyt .p1{
+    font-family:cursive;
+}
+
+/*font-famliy*/
+.font-wight .p2{
+    font-weight: bold;
+}
+
+.font-wight .3{
+    font-weight:300;
+}
+

@@ -1,0 +1,23 @@
+div.b1{
+    background-image: url(../image/photo1080.jpg);
+    background-image: url(../image/th.jpg);
+    background-repeat: no-repeat;
+    height:400px;
+    background-size: 100% 100%;
+    color: darkred;
+
+}
+
+
+div.b2{
+    background-image: url(../image/chakiben.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.b3{
+    height: 20px;
+    width: 30px; 
+}
+
+

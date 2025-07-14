@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d1 p{
+    font-size: larger;
+}
+
+.d1 .d1-c1{
+    background-color: aquamarine;
+} 
+
+.d1 .d1-c1~p{
+    color:aliceblue;
+}
+
+.d2{
+    margin-top:25px ;
+}
+
+.d2 > p{
+    background-color:gray ;
+}
+
+.d2 .d2-c1 + p{
+    color: pink;
+}

@@ -1,0 +1,20 @@
+.card {
+    
+    width: 1000px;
+    text-align: center;
+    background-color: aqua;
+}
+
+.card p.name{
+    
+    text-align: center;
+    font-family: Roboto Mono, monospace;
+}
+
+.card p.dics{
+    text-align: justify;
+    font-family:Bebas Neue, sans-serif ;
+    font-size: larger;
+}
+
+

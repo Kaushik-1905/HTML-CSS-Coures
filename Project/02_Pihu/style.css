@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: skyblue;
+    height: 50px;
+    width: 1560px;
+    position: relative;
+    top: 0px;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.p1{
+    color: black;
+    margin: 15px;
+    position: absolute;
+    right: 100px;
+}
+
+.p2{
+    color: black;
+    position: absolute;
+    margin: 15px;  
+    right: 165px; 
+}
+
+.p3{
+    color: black;
+    position: absolute;
+    margin: 15px;  
+    right: 230px;
+    
+}
+
+.p4{
+    color: black;
+    position: absolute;
+    margin: 15px; 
+    left: 50px;
+}
+
+.p1:hover{
+   color: hotpink;
+}
+
+.p2:hover{
+   color: hotpink;
+}
+
+.p3:hover{
+    color: hotpink;
+    background-color: skyblue;
+    width: 67px;
+    transition: 1s;
+
+}
+
+
