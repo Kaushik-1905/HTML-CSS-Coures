@@ -1,0 +1,42 @@
+@media (max-width:1400px) {
+    .contanair {
+        max-width: 1320px;
+
+    }
+}
+
+@media (max-width:1399px) {
+    .contanair {
+        max-width: 1140px;
+    }
+}
+
+@media (max-width:1199px) {
+    .contanair {
+        max-width: 960px;
+
+    }
+
+}
+
+@media (max-width:991px) {
+    .contanair {
+        max-width: 720px;
+
+    }
+
+}
+
+@media (max-width:767px) {
+    .contanair {
+        max-width: 540px;
+
+    }
+}
+
+@media (max-width:575px) {
+    .contanair {
+        max-width: 100%;
+
+    }
+}

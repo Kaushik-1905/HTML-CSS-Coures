@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.containar{
+    background-color: gray;
+    margin: 20px auto;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w-25{
+    width: 25%;
+}
+
+
+.box{
+    height: 400px;
+    width: 250px;
+    background-color: black;
+}
+
+.box1{
+    background-color: aqua;
+}
+
+.box2{
+    background-color: blueviolet;
+}
+
+.box3{
+    background-color: darkkhaki;
+}
+
+
+/* row */
+
+.row{
+   flex-direction: column-reverse; 
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: lightblue;
+    min-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.w-class{
+    width: 33.33%;    
+}
+
+.img{
+
+    margin: 8px; 
+}
+
+img{
+    width: 100%;
+     border: 4px double lightslategray;   
+}
+
